@@ -8,7 +8,7 @@ function book(e){
     e.preventDefault();
     console.log(e.target.id);
     if(e.target.id=="alice"){
-        read("./AliceInWonderland.txt","Alice In WonderLand");
+        read("./aliceInWonderland.txt","Alice In WonderLand");
     }
     if(e.target.id=="hyde"){
         read("./JekyllAndHyde.txt","Jekyll And Hyde");
